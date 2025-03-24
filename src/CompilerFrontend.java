@@ -4,6 +4,7 @@ public abstract class CompilerFrontend {
     Parser parse;
 
     public CompilerFrontend() {
+        this.debug = false;
         parse = new ParserImpl();
     }
 
